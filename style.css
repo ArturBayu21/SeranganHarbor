@@ -1,0 +1,168 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.page-1 {
+    min-height: 100vh;
+    background-color: #42C2FF;
+}
+
+.page-2 {
+    padding-top: 60px;
+    min-height: 100vh;
+    background-color: white;
+}
+
+.page-2 h1 {
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 50px;
+    font-size: 3.5rem;
+}
+
+.logo {
+    filter: invert(88%) sepia(88%) saturate(5%) hue-rotate(177deg) brightness(110%) contrast(97%);
+    width: 60px;
+}
+
+nav {
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo h1 {
+    padding-left: 20px;
+    font-size: 2rem;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    padding-left: 5rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-links li a:hover {
+    color: blue;
+}
+
+.description {
+    display: flex;
+    max-width: 80%;
+    margin: 40px auto;
+}
+
+.main-desc {
+    padding: 0 70px 0 0;
+    padding-top: 11%;
+    color: white;
+}
+
+.main-desc h1 {
+    font-size: 4rem;
+}
+
+.main-desc p {
+    margin-top: 25px;
+    font-size: 1.2rem;
+    line-height: 1.8;
+}
+
+.main-image img {
+    width: 600px;
+}
+
+.row1,
+.row2,
+.row3 {
+    max-width: 70%;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 50px;
+}
+
+.service-img img {
+    width: 300px;
+}
+
+.row2 .service-desc {
+    text-align: end;
+}
+
+.service-desc {
+    padding: 25px 40px;
+}
+
+.header-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 70px;
+}
+
+.header-3 h1 {
+    font-weight: 600;
+    font-size: 3.5rem;
+    padding-left: 30px;
+}
+
+.location-icon {
+    filter: invert(88%) sepia(88%) saturate(5%) hue-rotate(177deg) brightness(110%) contrast(97%);
+    width: 70px;
+}
+
+.page-3 {
+    min-height: 100vh;
+    background-color: #42C2FF;
+    color: white;
+}
+
+.map {
+    margin-top: 50px;
+    text-align: center;
+}
+
+iframe {
+    width: 70%;
+    height: 700px;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+}
+
+.page-4 h1 {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 1.6rem;
+}
+
+.phone,
+.open {
+    padding: 40px;
+}
+
+.carousel-item {
+    width: 600px;
+}

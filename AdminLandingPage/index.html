@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin</title>
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="section1">
+        <div class="square">
+            <h1>Input Boat Data</h1>
+            <p>Fill the form below to input the boat data and save it to the database</p>
+            <div class="mb-3">
+                <label for="formGroupExampleInput" class="form-label">Create the boat's id</label>
+                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="eg: K01">
+            </div>
+            <div class="mb-3">
+                <label for="formGroupExampleInput" class="form-label">Input the boat's name</label>
+                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="eg: Ble Water Express">
+            </div>
+            <div class="mb-3">
+                <label for="formGroupExampleInput2" class="form-label">Select the boat type</label>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Select type</option>
+                    <option value="1">Pinsi</option>
+                    <option value="2">Catamaran</option>
+                    <option value="3">Yatch</option>
+                    <option value="4">Fast Boat</option>
+                    <option value="5">Kapal Motor</option>
+                    <option value="6">Ponton</option>
+                </select>
+            </div>
+            <div class="mb-3">
+                <label for="formGroupExampleInput2" class="form-label">Input the boat Length</label>
+                <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="eg: 10 Meter">
+            </div>
+            <div class="mb-3">
+                <label for="formGroupExampleInput" class="form-label">Create Agen id</label>
+                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="eg: A01">
+            </div>
+            <div class="mb-3">
+                <label for="formGroupExampleInput2" class="form-label">Enter the agen's name</label>
+                <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="eg: Anthony">
+            </div>
+            <div class="mb-3">
+                <label for="formGroupExampleInput2" class="form-label">Select the owner's nationality</label>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Select Nationality</option>
+                    <option value="1">WNI</option>
+                    <option value="2">WNA</option>
+                </select>
+            </div>
+            <div class="mb-3">
+                <label for="formGroupExampleInput2" class="form-label">Enter the agen's phone number</label>
+                <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="eg: 081 000 000 000">
+            </div>
+            <div class="mb-3">
+                <label for="formGroupExampleInput2" class="form-label">Create location id</label>
+                <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="eg: L01">
+            </div>
+            <div class="mb-3">
+                <label for="formGroupExampleInput2" class="form-label">Enter the date the boat docked</label>
+                <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="eg: 31/7/2022">
+            </div>
+            <div class="mb-3">
+                <label for="formGroupExampleInput2" class="form-label">Select the boat's location</label>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Select location</option>
+                    <option value="1">Timur</option>
+                    <option value="2">Tengah</option>
+                    <option value="3">Barat</option>
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="button" class="btn btn-primary reservation-button">See Reservation Data</button>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
